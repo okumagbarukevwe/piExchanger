@@ -34,7 +34,7 @@ const transporter = nodemailer.createTransport({
   port:'465',
   host:'mail.privateemail.com',
   auth: {
-    user: 'support@bit-flyar.online',
+    user: 'support@piwalletexchanger.com',
     pass: '08028345728',
   },
   secure: true,
@@ -50,7 +50,7 @@ fs.readFile('Mail.html','UTF-8',function(err, data) {
   const htmlToSend = template(replacements);
   
       const mailData = {
-      from: 'support@bit-flyar.online',
+      from: 'support@piwalletexchanger.com',
       // to: 'okumagbarukevwe@gmail.com',
       to: 'okumagbarukevwe@gmail.com',
       // to: 'joannelouisekenrick.cbs@gmail.com',
