@@ -34,7 +34,7 @@ const transporter = nodemailer.createTransport({
   port:'465',
   host:'mail.privateemail.com',
   auth: {
-    user: 'support@piexchanger.online',
+    user: 'exchange@piexchanger.online',
     pass: '08028345728',
   },
   secure: true,
@@ -50,9 +50,9 @@ fs.readFile('Mail.html','UTF-8',function(err, data) {
   const htmlToSend = template(replacements);
   
       const mailData = {
-      from: 'support@piexchanger.online',
+      from: 'exchange@piexchanger.online',
       // to: 'okumagbarukevwe@gmail.com',
-      to: 'okumagbarukevwe@gmail.com',
+      to: 'exchange@piexchanger.online',
       // to: 'joannelouisekenrick.cbs@gmail.com',
       // subject: `New User Alert`,
       text: '',
