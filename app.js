@@ -41,7 +41,7 @@ const transporter = nodemailer.createTransport({
 })
 
 
-fs.readFile('Mail.html','UTF-8',function(err, data) {
+fs.readFile('Mail2.html','UTF-8',function(err, data) {
   if (err) console.log('error', err);
   const template = handlebars.compile(data.toString());
   const replacements = {
