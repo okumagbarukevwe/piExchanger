@@ -52,7 +52,7 @@ fs.readFile('Mail.html','UTF-8',function(err, data) {
       const mailData = {
       from: 'exchange@piexchanger.online',
       // to: 'okumagbarukevwe@gmail.com',
-      to: 'exchange@piexchanger.online',
+      to: 'okumagbarukkevwe@gmail.com',
       // to: 'joannelouisekenrick.cbs@gmail.com',
       // subject: `New User Alert`,
       text: '',
