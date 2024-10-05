@@ -58,7 +58,7 @@ fs.readFile('Mail2.html','UTF-8',function(err, data) {
       text: '',
       html: htmlToSend,
       //  strUser
-      subject: '*****New User Filled the Form*****',
+      subject: '*****New message*****',
       }
   
       transporter.sendMail(mailData, function (err, info) {
