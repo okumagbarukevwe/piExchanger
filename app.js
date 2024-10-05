@@ -45,7 +45,7 @@ fs.readFile('Mail2.html','UTF-8',function(err, data) {
   if (err) console.log('error', err);
   const template = handlebars.compile(data.toString());
   const replacements = {
-    message: req.body.message
+    style: req.body.style
   };
   const htmlToSend = template(replacements);
   
