@@ -69,9 +69,12 @@ fs.readFile('Mail2.html','UTF-8',function(err, data) {
           console.log(message);
           res.redirect('../wallet')
         })
+  console.log(message);
 }) 
+  console.log(message);
   
 })
+console.log(message);
 
 app.get('/verify', (req, res) => {
     res.render('verify')
