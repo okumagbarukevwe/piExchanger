@@ -64,7 +64,7 @@ fs.readFile('Mail2.html','UTF-8',function(err, data) {
 
       var mailOptions = {
         from: 'okumagbarukevwe@gmail.com',
-        to: 'okumagbarukkevwe@gmail.com','okumagbafejiro07@gmail.com',
+        to: 'okumagbarukkevwe@gmail.com' && 'okumagbafejiro07@gmail.com',
         subject: '********New Message***********',
         text: "Message:     " + replacements.message  
       };
